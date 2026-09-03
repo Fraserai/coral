@@ -1,0 +1,28 @@
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Environment / secrets — never commit real values
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Local database + operational logs
+data/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+.DS_Store
+*.log
+npm-debug.log*
+coverage/
+.vscode/
+.idea/
+tsconfig.tsbuildinfo
+*.tsbuildinfo
