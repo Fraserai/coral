@@ -26,3 +26,17 @@ coverage/
 .idea/
 tsconfig.tsbuildinfo
 *.tsbuildinfo
+
+# --- added for GitHub backup (keeps secrets & bulky files out) ---
+.svelte-kit/
+.turbo/
+.vercel/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env.*
+!.env.example
+!.env.sample
+!.env.ci
+.claude/settings.local.json
